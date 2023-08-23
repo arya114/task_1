@@ -1,7 +1,7 @@
 /* Global styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+    background-color: #f0f0f0;
 }
 
 .container {
@@ -10,10 +10,11 @@ body {
 
 /* Card styles */
 .friend-card {
-    border: 1px solid #ced4da;
+    border: none;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
+    background-color: #ffffff;
 }
 
 .friend-card:hover {
@@ -21,17 +22,18 @@ body {
 }
 
 .card-title {
-    font-size: 1.25rem;
-    color: #343a40;
+    font-size: 1.5rem;
+    color: #333333;
+    margin-bottom: 10px;
 }
 
 .card-text {
-    color: #6c757d;
+    color: #666666;
 }
 
 /* Header styles */
 h1 {
-    color: #343a40;
+    color: #333333;
     text-align: center;
     margin-bottom: 30px;
 }
